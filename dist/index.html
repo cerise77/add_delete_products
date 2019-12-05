@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Do</title>
+
+  </head>
+  <body>
+    <div class="head">
+        <a href="index.html">Admin</a>
+        <a href="new.html">Client</a>
+    </div>
+
+    <div class="form-group">
+          <div class="form-inline">
+            <form name="myForm">
+                  <div class="field">
+                    <label class="lab" for="in1">Code</label>
+                    <input type="number" min="1" max="100" id="in1" class="form-control" name="codde" required pattern="[0-9]{10}" />
+                  </div>
+
+                  <div class="field">
+                    <label class="lab" for="in2">Name</label>
+                    <input type="text" id="in2" class="form-control" name="name" required/>
+                  </div>
+
+                  <div class="field">
+                    <label class="lab" for="in3">Price</label>
+                    <input type="number" min="1" max="100" id="in3" class="form-control" name="price" required pattern="[0-9]{10}" />
+                  </div>
+
+                  <div class="fields">
+                    <label for="in3">Available</label>
+                    <input type="checkbox" />
+                  </div>
+
+                  <div class="field">
+                    <label class="lab" for="in4">Image</label>
+                    <input type="text" id="in4" class="form-control" name="image" required />
+                  </div>
+
+                  <div class="field">
+                    <label class="lab" for="in5">Description</label>
+                    <textarea type="text" id="in5" class="form-control" name="description" required></textarea>
+                  </div>
+
+                  <button class="btn btn-default but but-add">Add</button>
+
+                  <button class="btn btn-default but delete-b">Delete</button>
+                </form>
+            </div>
+    </div>
+
+    <div class="table-product"> </div>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

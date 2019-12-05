@@ -1,0 +1,20 @@
+[
+    { "Codde": 1,
+      "Name": "Apple",
+      "Price": 23,
+      "Image": "qw",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"},
+    {
+        "Codde": 2,
+        "Name":"Banana",
+        "Price": 45,
+        "Image": "aw",
+        "Description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea"
+    }, {
+        "Codde": 3,
+        "Name":"Pineapple",
+        "Price": 67,
+        "Image": "tw",
+        "Description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+    }
+]
